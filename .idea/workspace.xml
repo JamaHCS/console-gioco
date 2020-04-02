@@ -19,6 +19,13 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/com/gioco/view/MainMenu.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/gioco/controller/Tools.java" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1Zs6ane0lfNidKXHBvVYlHc2leM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -68,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585615520920</updated>
-      <workItem from="1585615527371" duration="28032000" />
+      <workItem from="1585615527371" duration="30976000" />
     </task>
     <servers />
   </component>
@@ -80,10 +87,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1585616257954" />
-    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1585791835978">
+    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1585817965655">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1585791835978" />
+    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1585817965655" />
     <state x="622" y="355" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585771665804">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -92,22 +99,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="41" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1585799451914" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1585814306797">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1585814556213">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585814306797" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1585814306796">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585814556213" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1585814556212">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585814306796" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1585814306796">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585814556212" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1585814556212">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585814306796" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1585814306796">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585814556212" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1585814556212">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585814306796" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585814556212" />
     <state x="301" y="72" key="SettingsEditor" timestamp="1585615588849">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

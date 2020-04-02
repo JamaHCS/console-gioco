@@ -16,6 +16,7 @@ public class Login implements IVisualizable {
             Tools.cleanScreen();
             Tools.printTitle("Gioco - Login");
             System.out.println("\nIngesa tus datos de usuario para entrar.");
+
             System.out.print("\nUsuario: ");
             login.setUser();
 

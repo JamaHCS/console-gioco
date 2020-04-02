@@ -1,8 +1,7 @@
 package com.gioco.view;
 
+import com.gioco.controller.CMainMenu;
 import com.gioco.controller.Tools;
-
-import javax.tools.Tool;
 
 public class MainMenu implements IVisualizable {
     int option = 0;
@@ -18,6 +17,9 @@ public class MainMenu implements IVisualizable {
 
             option = Tools.getOption();
             Tools.validateOption(0, 3, option);
+
+            CMainMenu cMainMenu = new CMainMenu(option);
+            cMainMenu.controller();
 
         } while (option != 0);
     }
