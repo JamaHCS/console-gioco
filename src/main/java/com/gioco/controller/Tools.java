@@ -29,6 +29,10 @@ public class Tools {
         System.out.println("\n");
     }
 
+    public static void padding() {
+        System.out.println("\n");
+    }
+
     /**
      * Imprime un texto subrayado en negrita que representa el título de pantalla.
      *

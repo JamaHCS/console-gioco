@@ -1,12 +1,10 @@
 package com.gioco.controller;
 
-import com.gioco.view.ManageStock;
-
-public class CMainMenu implements IController {
+public class CManageStock implements IController {
     private int optionSelected;
 
-    public CMainMenu(int option) {
-        this.optionSelected = option;
+    public CManageStock(int optionSelected) {
+        this.optionSelected = optionSelected;
     }
 
     public int getOptionSelected() {
@@ -17,15 +15,19 @@ public class CMainMenu implements IController {
         this.optionSelected = optionSelected;
     }
 
+
+    @Override
     public void controller() {
         switch (optionSelected) {
             case 1:
-                ManageStock manageStock = new ManageStock();
-                manageStock.show();
                 break;
             case 2:
                 break;
             case 3:
+                break;
+            case 4:
+                break;
+            case 5:
                 break;
         }
     }

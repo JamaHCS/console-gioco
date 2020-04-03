@@ -1,16 +1,16 @@
 package com.gioco.controller;
 
-import com.gioco.controller.DAO.EmployeeDAO;
-import com.gioco.model.object.Employee;
+import com.gioco.model.Employee;
+import com.gioco.controller.repository.EmployeeRepo;
 
 import java.util.Scanner;
 
-import static com.gioco.controller.DAO.EmployeeDAO.employees;
 import static com.gioco.controller.Tools.ANSI_RESET;
 import static com.gioco.controller.Tools.ANSI_YELLOW;
+import static com.gioco.controller.repository.EmployeeRepo.employees;
 
 public class CLogin {
-    private EmployeeDAO employeeDAO = new EmployeeDAO();
+    private EmployeeRepo employeeRepo = new EmployeeRepo();
     private int userLoged = 0;
     private String user = "";
     private String password = "";

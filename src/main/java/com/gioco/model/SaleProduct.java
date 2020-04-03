@@ -1,4 +1,4 @@
-package com.gioco.model.object;
+package com.gioco.model;
 
 import java.util.Objects;
 

@@ -1,6 +1,4 @@
-package com.gioco.model.object;
-
-import com.gioco.controller.Tools;
+package com.gioco.model;
 
 import java.util.ArrayList;
 

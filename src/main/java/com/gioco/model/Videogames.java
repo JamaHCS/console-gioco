@@ -1,4 +1,4 @@
-package com.gioco.model.object;
+package com.gioco.model;
 
 public class Videogames extends Product {
     private String esrb;
