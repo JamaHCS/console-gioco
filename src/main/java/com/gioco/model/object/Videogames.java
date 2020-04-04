@@ -1,8 +1,6 @@
-package com.gioco.model;
+package com.gioco.model.object;
 
 import com.gioco.controller.Tools;
-
-import java.util.ArrayList;
 
 public class Videogames extends Product {
     private String esrb;
@@ -54,7 +52,7 @@ public class Videogames extends Product {
     }
 
     @Override
-    public Product addProduct() {
+    public Product generateProduct() {
         Tools.printTitle("Gioco - Agregando producto: Videojuego");
 
         String productName = Tools.getString("nombre del producto");

@@ -10,17 +10,16 @@ public class ManageStock implements IVisualizable {
     public void show() {
         do {
             Tools.padding();
-            Tools.printTitle("Gioco - Administrar artículos");
+            Tools.printTitle("Gioco - Administrar productos");
             System.out.println("Selecciona la opción deseada.\n");
-            System.out.println("1.- Crear artículos");
-            System.out.println("2.- Ver artículos");
-            System.out.println("3.- Buscar artículos");
-            System.out.println("4.- Editar artículos");
-            System.out.println("5.- Borrar artículos");
+            System.out.println("1.- Crear productos");
+            System.out.println("2.- Ver productos");
+            System.out.println("3.- Buscar productos");
+            System.out.println("4.- Borrar artículos");
             System.out.println("0.- Regresar");
 
             option = Tools.getOption();
-            Tools.validateOption(0, 5, option);
+            Tools.validateOption(0, 4, option);
 
             CManageStock cManageStock = new CManageStock(option);
             cManageStock.controller();

@@ -1,14 +1,14 @@
-package com.gioco.model;
+package com.gioco.model.object;
 
 public abstract class Product {
     private static int it = 1;
     private int productId;
-        private String productName;
-        private float productCost;
-        private float productPrice;
-        private int productStock;
-        private String brand;
-        private String platform;
+    private String productName;
+    private float productCost;
+    private float productPrice;
+    private int productStock;
+    private String brand;
+    private String platform;
 
     public Product() {
         this.productId = it;
@@ -83,16 +83,7 @@ public abstract class Product {
         this.platform = platform;
     }
 
-    public Product addProduct() {
-        return new Product() {
-            @Override
-            protected void finalize() throws Throwable {
-                super.finalize();
-            }
-        };
-    }
-
-    public Product searchProduct() {
+    public Product generateProduct() {
         return new Product() {
             @Override
             protected void finalize() throws Throwable {

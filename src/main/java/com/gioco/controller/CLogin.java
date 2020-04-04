@@ -1,6 +1,6 @@
 package com.gioco.controller;
 
-import com.gioco.model.Employee;
+import com.gioco.model.object.Employee;
 import com.gioco.model.repository.EmployeeRepo;
 
 import java.util.Scanner;

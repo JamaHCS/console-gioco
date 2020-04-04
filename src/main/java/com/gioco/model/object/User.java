@@ -1,6 +1,4 @@
-package com.gioco.model;
-
-import java.util.ArrayList;
+package com.gioco.model.object;
 
 public abstract class User {
     private static int it = 1;

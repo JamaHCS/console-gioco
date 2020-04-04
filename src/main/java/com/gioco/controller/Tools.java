@@ -74,6 +74,12 @@ public class Tools {
         return theScanner.nextInt();
     }
 
+    public static int getId() {
+        Scanner theScanner = new Scanner(System.in);
+        System.out.print("\nIngresa el id: ");
+        return theScanner.nextInt();
+    }
+
     public static float getFloat(String value) {
         Scanner theScanner = new Scanner(System.in);
         System.out.print("\nIngresa " + value + ": ");

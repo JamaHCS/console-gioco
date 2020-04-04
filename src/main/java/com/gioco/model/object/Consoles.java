@@ -1,8 +1,6 @@
-package com.gioco.model;
+package com.gioco.model.object;
 
 import com.gioco.controller.Tools;
-
-import javax.tools.Tool;
 
 public class Consoles extends Product {
     private String model;
@@ -44,7 +42,7 @@ public class Consoles extends Product {
     }
 
     @Override
-    public Product addProduct() {
+    public Product generateProduct() {
         Tools.printTitle("Gioco - Agregando producto: Consola");
 
         String productName = Tools.getString("nombre del producto");

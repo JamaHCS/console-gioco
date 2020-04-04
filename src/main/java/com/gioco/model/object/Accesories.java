@@ -1,4 +1,4 @@
-package com.gioco.model;
+package com.gioco.model.object;
 
 import com.gioco.controller.Tools;
 
@@ -32,7 +32,7 @@ public class Accesories extends Product {
     }
 
     @Override
-    public Product addProduct() {
+    public Product generateProduct() {
         Tools.printTitle("Gioco - Agregando producto: Accesorio");
 
         String productName = Tools.getString("nombre del producto");

@@ -1,4 +1,4 @@
-package com.gioco.model;
+package com.gioco.model.object;
 
 public class Client extends User {
     private String rfc;

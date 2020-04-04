@@ -1,6 +1,6 @@
 package com.gioco.model.repository;
 
-import com.gioco.model.Employee;
+import com.gioco.model.object.Employee;
 
 import java.util.ArrayList;
 

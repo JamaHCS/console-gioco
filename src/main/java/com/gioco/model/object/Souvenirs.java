@@ -1,8 +1,6 @@
-package com.gioco.model;
+package com.gioco.model.object;
 
 import com.gioco.controller.Tools;
-
-import javax.tools.Tool;
 
 public class Souvenirs extends Product {
     private String type;
@@ -45,7 +43,7 @@ public class Souvenirs extends Product {
 
 
     @Override
-    public Product addProduct() {
+    public Product generateProduct() {
         Tools.printTitle("Gioco - Agregando producto: Souvenir");
 
         String productName = Tools.getString("nombre del producto");

@@ -1,9 +1,11 @@
 package com.gioco.controller;
 
+import com.gioco.model.repository.ProductRepository;
 import com.gioco.view.ManageStock;
 
 public class CMainMenu implements IController {
     private int optionSelected;
+    ProductRepository productRepository = new ProductRepository();
 
     public CMainMenu(int option) {
         this.optionSelected = option;
