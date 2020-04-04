@@ -1,10 +1,6 @@
 package com.gioco.controller;
 
 import com.gioco.controller.DAO.ProductDAO;
-import com.gioco.model.object.Accesories;
-import com.gioco.model.object.Consoles;
-import com.gioco.model.object.Souvenirs;
-import com.gioco.model.object.Videogames;
 import com.gioco.view.CreateProduct;
 
 public class CManageStock implements IController {

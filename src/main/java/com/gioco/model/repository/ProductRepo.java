@@ -1,23 +1,24 @@
 package com.gioco.model.repository;
 
-import com.gioco.model.object.*;
+import com.gioco.model.object.Consoles;
+import com.gioco.model.object.Product;
+import com.gioco.model.object.Videogames;
 
-import java.io.Console;
 import java.util.ArrayList;
 
-public class ProductRepository {
+public class ProductRepo implements IFilleable {
     public static ArrayList<Product> products = new ArrayList<>();
 
     private Consoles xboxOne = new Consoles();
     private Videogames halo5 = new Videogames();
 
-    public ProductRepository() {
+    public ProductRepo() {
         this.fillData();
         products.add(xboxOne);
         products.add(halo5);
     }
 
-    private void fillData() {
+    public void fillData() {
         xboxOne.setProductName("Xbox One");
         xboxOne.setProductCost(4000);
         xboxOne.setProductPrice(6000);

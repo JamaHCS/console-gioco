@@ -4,25 +4,18 @@ import com.gioco.model.object.Employee;
 
 import java.util.ArrayList;
 
-public class EmployeeRepo {
+public class EmployeeRepo implements IFilleable {
     public static ArrayList<Employee> employees = new ArrayList<>();
 
     private Employee jamaEmplooyee = new Employee();
 
     public EmployeeRepo() {
-        generateJama();
-        employees.add(getJamaEmplooyee());
+        this.fillData();
+        employees.add(jamaEmplooyee);
     }
 
-    public Employee getJamaEmplooyee() {
-        return jamaEmplooyee;
-    }
-
-    public void setJamaEmplooyee(Employee jamaEmplooyee) {
-        this.jamaEmplooyee = jamaEmplooyee;
-    }
-
-    private void generateJama() {
+    @Override
+    public void fillData() {
         jamaEmplooyee.setNickname("JamaHCS");
         jamaEmplooyee.setPassword("acceso");
         jamaEmplooyee.setFirstName("Héctor");

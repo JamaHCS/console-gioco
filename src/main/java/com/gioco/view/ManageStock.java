@@ -11,7 +11,6 @@ public class ManageStock implements IVisualizable {
         do {
             Tools.padding();
             Tools.printTitle("Gioco - Administrar productos");
-            System.out.println("Selecciona la opción deseada.\n");
             System.out.println("1.- Crear productos");
             System.out.println("2.- Ver productos");
             System.out.println("3.- Buscar productos");

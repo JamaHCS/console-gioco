@@ -1,9 +1,11 @@
 package com.gioco.model.object;
 
+import com.gioco.controller.Tools;
+
 public class Client extends User {
     private String rfc;
     private String curp;
-    private double points;
+    private double points = 0;
     private String street;
     private int exteriorN;
     private int interiorN;
@@ -13,6 +15,20 @@ public class Client extends User {
     public Client() {
     }
 
+    public Client(String s) {
+        super(s);
+    }
+
+    public Client(String nickname, String password, String firstName, String secondName, String middleName, String lastName, String fullName, String bornDate, String email, String phoneNumber, int userType, String since, int status, String rfc, String curp, String street, int exteriorN, int interiorN, int postalCode, String colony) {
+        super(nickname, password, firstName, secondName, middleName, lastName, fullName, bornDate, email, phoneNumber, userType, since, status);
+        this.rfc = rfc;
+        this.curp = curp;
+        this.street = street;
+        this.exteriorN = exteriorN;
+        this.interiorN = interiorN;
+        this.postalCode = postalCode;
+        this.colony = colony;
+    }
 
     public String getRfc() {
         return rfc;
@@ -76,5 +92,55 @@ public class Client extends User {
 
     public void setColony(String colony) {
         this.colony = colony;
+    }
+
+
+    @Override
+    public User addUser() {
+        Tools.printTitle("Gioco - Agregando nuevo cliente.");
+
+        String nickname = Tools.getString("nickname");
+        String password = Tools.getString("password");
+        String firstName = Tools.getString("primer nombre");
+        String secondName = Tools.getString("segundo nombre");
+        String middleName = Tools.getString("apellido paterno");
+        String lastName = Tools.getString("apellido materno");
+        String fullName = firstName + " " + secondName + " " + middleName + " " + lastName;
+        String bornDate = Tools.getString("fecha de nacimiento (DD/MM/YYYY)");
+        String email = Tools.getString("email");
+        String phoneNumber = Tools.getString("número de teléfono");
+        int userType = 2;
+        String since = "Caracteristica inhabil";
+        int status = 1;
+
+        String rfc = Tools.getString("RFC");
+        String curp = Tools.getString("CURP");
+        String street = Tools.getString("calle");
+        int exteriorN = Tools.getInt("número exterior");
+        int interiorN = Tools.getInt("número interior");
+        int postalCode = Tools.getInt("codigo postal");
+        String colony = Tools.getString("colonia");
+
+
+        return new Client(nickname, password, firstName, secondName, middleName, lastName, fullName, bornDate, email, phoneNumber, userType, since, status, rfc, curp, street, exteriorN, interiorN, postalCode, colony);
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() +
+                "\nRFC: " + this.rfc +
+                "\nCURP: " + this.curp +
+                "\n" + Tools.ANSI_BLUE + "Dirección:" + Tools.ANSI_RESET +
+                "\nCalle: " + this.street +
+                "\nNúmero exterior e interior: " + this.exteriorN + " | " + this.interiorN +
+                "\nCódigo postal: " + this.postalCode +
+                "\nColonia: " + this.colony;
+    }
+
+    public String toString(String shortToString) {
+        return "Id: " + this.getId() +
+                "\nNickname: " + this.getNickname() +
+                "\nEmail: " + this.getEmail() +
+                "\nNombre: " + this.getFullName() + ".";
     }
 }

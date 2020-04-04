@@ -2,9 +2,8 @@ package com.gioco.controller.DAO;
 
 import com.gioco.model.object.Product;
 
-
 import static com.gioco.controller.Tools.*;
-import static com.gioco.model.repository.ProductRepository.products;
+import static com.gioco.model.repository.ProductRepo.products;
 
 public class ProductDAO {
     public void addProduct(Product product) {
@@ -16,7 +15,6 @@ public class ProductDAO {
 
         for (Product p : products) {
             if (p.getProductId() == id) {
-
                 product = p;
             }
         }
@@ -35,12 +33,12 @@ public class ProductDAO {
         }
     }
 
+    @Override
     public String toString() {
         String toReturn = "";
         for (Product p : products) {
             toReturn += "\n\n" + p.toString();
         }
-
         return toReturn;
     }
 }

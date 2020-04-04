@@ -22,6 +22,10 @@ public abstract class User {
         it++;
     }
 
+    User(String s) {
+
+    }
+
     public User(String nickname, String password, String firstName, String secondName, String middleName, String lastName, String fullName, String bornDate, String email, String phoneNumber, int userType, String since, int status) {
         this.nickname = nickname;
         this.password = password;

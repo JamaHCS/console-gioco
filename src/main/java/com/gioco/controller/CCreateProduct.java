@@ -1,7 +1,6 @@
 package com.gioco.controller;
 
 
-import com.gioco.controller.DAO.ProductDAO;
 import com.gioco.model.object.Accesories;
 import com.gioco.model.object.Consoles;
 import com.gioco.model.object.Souvenirs;
@@ -11,10 +10,6 @@ import static com.gioco.controller.CManageStock.productDAO;
 
 public class CCreateProduct implements IController {
     private int optionSelected;
-    private Consoles console = new Consoles("s");
-    private Souvenirs souvenir = new Souvenirs("s");
-    private Videogames videogame = new Videogames("s");
-    private Accesories accesorie = new Accesories("s");
 
     public CCreateProduct(int optionSelected) {
         this.optionSelected = optionSelected;
@@ -24,16 +19,16 @@ public class CCreateProduct implements IController {
     public void controller() {
         switch (optionSelected) {
             case 1:
-                productDAO.addProduct(console.generateProduct());
+                productDAO.addProduct(new Consoles().generateProduct());
                 break;
             case 2:
-                productDAO.addProduct(videogame.generateProduct());
+                productDAO.addProduct(new Videogames().generateProduct());
                 break;
             case 3:
-                productDAO.addProduct(accesorie.generateProduct());
+                productDAO.addProduct(new Accesories().generateProduct());
                 break;
             case 4:
-                productDAO.addProduct(souvenir.generateProduct());
+                productDAO.addProduct(new Souvenirs().generateProduct());
                 break;
         }
     }
