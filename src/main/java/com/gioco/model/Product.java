@@ -1,15 +1,29 @@
 package com.gioco.model;
 
 public abstract class Product {
+    private static int it = 1;
     private int productId;
-    private String productName;
-    private float productCost;
-    private float productPrice;
-    private int productStock;
-    private Brand brand;
-    private Platform platform;
+        private String productName;
+        private float productCost;
+        private float productPrice;
+        private int productStock;
+        private String brand;
+        private String platform;
 
     public Product() {
+        this.productId = it;
+        it++;
+    }
+
+    public Product(String productName, float productCost, float productPrice, int productStock, String brand, String platform) {
+        this.productName = productName;
+        this.productCost = productCost;
+        this.productPrice = productPrice;
+        this.productStock = productStock;
+        this.brand = brand;
+        this.platform = platform;
+        this.productId = it;
+        it++;
     }
 
     public int getProductId() {
@@ -27,6 +41,7 @@ public abstract class Product {
     public void setProductName(String productName) {
         this.productName = productName;
     }
+
 
     public float getProductCost() {
         return productCost;
@@ -52,19 +67,48 @@ public abstract class Product {
         this.productStock = productStock;
     }
 
-    public Brand getBrand() {
+    public String getBrand() {
         return brand;
     }
 
-    public void setBrand(Brand brand) {
+    public void setBrand(String brand) {
         this.brand = brand;
     }
 
-    public Platform getPlatform() {
+    public String getPlatform() {
         return platform;
     }
 
-    public void setPlatform(Platform platform) {
+    public void setPlatform(String platform) {
         this.platform = platform;
+    }
+
+    public Product addProduct() {
+        return new Product() {
+            @Override
+            protected void finalize() throws Throwable {
+                super.finalize();
+            }
+        };
+    }
+
+    public Product searchProduct() {
+        return new Product() {
+            @Override
+            protected void finalize() throws Throwable {
+                super.finalize();
+            }
+        };
+    }
+
+    @Override
+    public String toString() {
+        return "Id: " + this.productId +
+                ".\nNombre: " + this.productName +
+                ".\nCosto: " + this.productCost +
+                ".\nPrecio: " + this.productPrice +
+                ".\nStock: " + this.productStock +
+                ".\nMarca: " + this.brand + '\'' +
+                ".\nPlataforma: " + this.platform + ".";
     }
 }

@@ -1,5 +1,9 @@
 package com.gioco.model;
 
+import com.gioco.controller.Tools;
+
+import java.util.ArrayList;
+
 public class Videogames extends Product {
     private String esrb;
     private String gameType;
@@ -7,6 +11,14 @@ public class Videogames extends Product {
     private String studio;
 
     public Videogames() {
+    }
+
+    public Videogames(String productName, float productCost, float productPrice, int productStock, String brand, String platform, String esrb, String gameType, int numberOfPlayers, String studio) {
+        super(productName, productCost, productPrice, productStock, brand, platform);
+        this.esrb = esrb;
+        this.gameType = gameType;
+        this.numberOfPlayers = numberOfPlayers;
+        this.studio = studio;
     }
 
     public String getEsrb() {
@@ -39,5 +51,33 @@ public class Videogames extends Product {
 
     public void setStudio(String studio) {
         this.studio = studio;
+    }
+
+    @Override
+    public Product addProduct() {
+        Tools.printTitle("Gioco - Agregando producto: Videojuego");
+
+        String productName = Tools.getString("nombre del producto");
+        float productCost = Tools.getFloat("costo del producto");
+        float productPrice = Tools.getFloat("precio del producto");
+        int productStock = Tools.getInt("stock");
+        String brand = Tools.getString("marca");
+        String platform = Tools.getString("plataforma");
+
+        String esrb = Tools.getString("clasificación esrb");
+        String gameType = Tools.getString("tipo de juego");
+        int numberOfPlayers = Tools.getInt("número en stock");
+        String studio = Tools.getString("estudio desarrollador");
+
+        return new Videogames(productName, productCost, productPrice, productStock, brand, platform, esrb, gameType, numberOfPlayers, studio);
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() +
+                "\nESRB: " + this.esrb +
+                ".\nTipo de juego: " + this.gameType +
+                ".\nNumero de jugadores: " + this.numberOfPlayers +
+                ".\nEstudio: " + this.studio + ".";
     }
 }

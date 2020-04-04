@@ -1,13 +1,13 @@
 package com.gioco.controller;
 
 import com.gioco.model.Employee;
-import com.gioco.controller.repository.EmployeeRepo;
+import com.gioco.model.repository.EmployeeRepo;
 
 import java.util.Scanner;
 
 import static com.gioco.controller.Tools.ANSI_RESET;
 import static com.gioco.controller.Tools.ANSI_YELLOW;
-import static com.gioco.controller.repository.EmployeeRepo.employees;
+import static com.gioco.model.repository.EmployeeRepo.employees;
 
 public class CLogin {
     private EmployeeRepo employeeRepo = new EmployeeRepo();

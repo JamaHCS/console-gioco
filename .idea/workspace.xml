@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28c480b0-d821-4e36-b654-0790b8261be4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CManageStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gioco/view/ManageStock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CMainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CMainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/DAO/EmployeeDAO.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/Tools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/EmployeeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/repository/EmployeeRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/view/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/view/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/repository/EmployeeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/EmployeeRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/Accesories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/Accesories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/Brand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/Consoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/Consoles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/Platform.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/Souvenirs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/Souvenirs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/Videogames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/Videogames.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +64,9 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.gioco.model.object" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gioco.model" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jama1\Desktop\IntegradoraSegundo\Console-Gioco-Project\src\main\java\com\gioco\model" />
     </key>
@@ -89,7 +96,8 @@
       <option name="presentableId" value="Default" />
       <updated>1585615520920</updated>
       <workItem from="1585615527371" duration="31382000" />
-      <workItem from="1585904993312" duration="2275000" />
+      <workItem from="1585904993312" duration="12794000" />
+      <workItem from="1585980588503" duration="1549000" />
     </task>
     <servers />
   </component>
@@ -101,14 +109,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1585616257954" />
-    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1585906558492">
+    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1585982991031">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1585906558492" />
-    <state x="622" y="355" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585907449540">
+    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1585982991031" />
+    <state x="622" y="355" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585934328016">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="622" y="355" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1585907449540" />
+    <state x="622" y="355" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1585934328016" />
     <state x="596" y="289" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585907560035">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -117,30 +125,34 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="41" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1585799451914" />
-    <state width="1557" height="395" key="GridCell.Tab.0.bottom" timestamp="1585907490170">
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585934969077">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="395" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585907490170" />
-    <state width="1557" height="395" key="GridCell.Tab.0.center" timestamp="1585907490170">
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1585934969077" />
+    <state width="1557" height="395" key="GridCell.Tab.0.bottom" timestamp="1585982406045">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="395" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585907490170" />
-    <state width="1557" height="395" key="GridCell.Tab.0.left" timestamp="1585907490169">
+    <state width="1557" height="395" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585982406045" />
+    <state width="1557" height="395" key="GridCell.Tab.0.center" timestamp="1585982406045">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="395" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585907490169" />
-    <state width="1557" height="395" key="GridCell.Tab.0.right" timestamp="1585907490170">
+    <state width="1557" height="395" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585982406045" />
+    <state width="1557" height="395" key="GridCell.Tab.0.left" timestamp="1585982406044">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="395" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585907490170" />
+    <state width="1557" height="395" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585982406044" />
+    <state width="1557" height="395" key="GridCell.Tab.0.right" timestamp="1585982406045">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="395" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585982406045" />
     <state x="301" y="72" key="SettingsEditor" timestamp="1585615588849">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1585615588849" />
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1585905056502">
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1585980588459">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585905056502" />
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585980588459" />
     <state x="506" y="58" key="refactoring.ChangeSignatureDialog" timestamp="1585795578606">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

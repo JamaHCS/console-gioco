@@ -68,6 +68,18 @@ public class Tools {
         return theScanner.nextLine();
     }
 
+    public static int getInt(String value) {
+        Scanner theScanner = new Scanner(System.in);
+        System.out.print("\nIngresa " + value + ": ");
+        return theScanner.nextInt();
+    }
+
+    public static float getFloat(String value) {
+        Scanner theScanner = new Scanner(System.in);
+        System.out.print("\nIngresa " + value + ": ");
+        return theScanner.nextFloat();
+    }
+
     public static void validateOption(int min, int max, int value) {
         if (!(value >= min && value <= max)) {
             System.out.println(ANSI_RED + "Opción invalida, escoge otra." + ANSI_RESET);

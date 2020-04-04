@@ -1,13 +1,13 @@
-package com.gioco.controller.repository;
+package com.gioco.model.repository;
 
 import com.gioco.model.Employee;
 
 import java.util.ArrayList;
 
 public class EmployeeRepo {
-    private Employee jamaEmplooyee = new Employee();
     public static ArrayList<Employee> employees = new ArrayList<>();
 
+    private Employee jamaEmplooyee = new Employee();
 
     public EmployeeRepo() {
         generateJama();

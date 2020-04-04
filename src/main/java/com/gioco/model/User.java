@@ -166,14 +166,6 @@ public abstract class User {
         };
     }
 
-    public User searchUser(ArrayList<User> users, String nickname) {
-        return new User() {
-            @Override
-            protected void finalize() throws Throwable {
-                super.finalize();
-            }
-        };
-    }
 
     @Override
     public String toString() {
