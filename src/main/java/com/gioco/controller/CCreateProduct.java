@@ -11,10 +11,10 @@ import static com.gioco.controller.CManageStock.productDAO;
 
 public class CCreateProduct implements IController {
     private int optionSelected;
-    private Consoles console = new Consoles();
-    private Souvenirs souvenir = new Souvenirs();
-    private Videogames videogame = new Videogames();
-    private Accesories accesorie = new Accesories();
+    private Consoles console = new Consoles("s");
+    private Souvenirs souvenir = new Souvenirs("s");
+    private Videogames videogame = new Videogames("s");
+    private Accesories accesorie = new Accesories("s");
 
     public CCreateProduct(int optionSelected) {
         this.optionSelected = optionSelected;

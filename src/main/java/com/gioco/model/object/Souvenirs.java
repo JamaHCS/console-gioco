@@ -10,6 +10,10 @@ public class Souvenirs extends Product {
     public Souvenirs() {
     }
 
+    public Souvenirs(String parameter) {
+        super(parameter);
+    }
+
     public Souvenirs(String productName, float productCost, float productPrice, int productStock, String brand, String platform, String type, String collectionOf, String details) {
         super(productName, productCost, productPrice, productStock, brand, platform);
         this.type = type;
@@ -44,6 +48,7 @@ public class Souvenirs extends Product {
 
     @Override
     public Product generateProduct() {
+        Tools.padding();
         Tools.printTitle("Gioco - Agregando producto: Souvenir");
 
         String productName = Tools.getString("nombre del producto");

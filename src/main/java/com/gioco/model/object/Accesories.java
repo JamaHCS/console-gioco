@@ -9,6 +9,10 @@ public class Accesories extends Product {
     public Accesories() {
     }
 
+    public Accesories(String parameter) {
+        super(parameter);
+    }
+
     public Accesories(String productName, float productCost, float productPrice, int productStock, String brand, String platform, String typeOf, String details) {
         super(productName, productCost, productPrice, productStock, brand, platform);
         this.typeOf = typeOf;
@@ -33,6 +37,7 @@ public class Accesories extends Product {
 
     @Override
     public Product generateProduct() {
+        Tools.padding();
         Tools.printTitle("Gioco - Agregando producto: Accesorio");
 
         String productName = Tools.getString("nombre del producto");

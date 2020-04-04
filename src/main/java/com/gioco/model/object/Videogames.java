@@ -11,6 +11,10 @@ public class Videogames extends Product {
     public Videogames() {
     }
 
+    public Videogames(String parameter) {
+        super(parameter);
+    }
+
     public Videogames(String productName, float productCost, float productPrice, int productStock, String brand, String platform, String esrb, String gameType, int numberOfPlayers, String studio) {
         super(productName, productCost, productPrice, productStock, brand, platform);
         this.esrb = esrb;
@@ -53,6 +57,7 @@ public class Videogames extends Product {
 
     @Override
     public Product generateProduct() {
+        Tools.padding();
         Tools.printTitle("Gioco - Agregando producto: Videojuego");
 
         String productName = Tools.getString("nombre del producto");

@@ -9,6 +9,7 @@ public class CreateProduct implements IVisualizable {
     @Override
     public void show() {
         do {
+            Tools.padding();
             Tools.printTitle("Gioco - Selecciona un tipo de producto.");
             System.out.println("\n1.- Consola.");
             System.out.println("2.- Videojuego.");

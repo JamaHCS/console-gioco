@@ -5,7 +5,7 @@ import com.gioco.view.ManageStock;
 
 public class CMainMenu implements IController {
     private int optionSelected;
-    ProductRepository productRepository = new ProductRepository();
+    public static ProductRepository productRepository = new ProductRepository();
 
     public CMainMenu(int option) {
         this.optionSelected = option;

@@ -10,6 +10,10 @@ public class Consoles extends Product {
     public Consoles() {
     }
 
+    public Consoles(String parameter) {
+        super(parameter);
+    }
+
     public Consoles(String productName, float productCost, float productPrice, int productStock, String brand, String platform, String model, float capacity, String details) {
         super(productName, productCost, productPrice, productStock, brand, platform);
         this.model = model;
@@ -43,6 +47,7 @@ public class Consoles extends Product {
 
     @Override
     public Product generateProduct() {
+        Tools.padding();
         Tools.printTitle("Gioco - Agregando producto: Consola");
 
         String productName = Tools.getString("nombre del producto");

@@ -15,6 +15,10 @@ public abstract class Product {
         it++;
     }
 
+    public Product(String parameter) {
+
+    }
+
     public Product(String productName, float productCost, float productPrice, int productStock, String brand, String platform) {
         this.productName = productName;
         this.productCost = productCost;

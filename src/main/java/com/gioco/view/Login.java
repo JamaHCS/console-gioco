@@ -4,7 +4,7 @@ import com.gioco.controller.CLogin;
 import com.gioco.controller.Tools;
 
 public class Login implements IVisualizable {
-    private CLogin login = new CLogin();
+    private static CLogin login = new CLogin();
     private boolean logged = false;
 
     public Login() {

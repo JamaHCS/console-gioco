@@ -2,44 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28c480b0-d821-4e36-b654-0790b8261be4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CCreateProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/DAO/ProductDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gioco/view/CreateProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CCreateProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CCreateProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CMainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CMainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CManageStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CManageStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/Tools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/Accesories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Accesories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/Consoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Consoles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Sale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/SaleProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/SaleProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/Souvenirs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Souvenirs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/Videogames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Videogames.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/EmployeeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/EmployeeRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/view/ManageStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/view/ManageStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/CLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/controller/CLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/CManageStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/controller/CManageStock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/Accesories.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/Consoles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/Product$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/Product$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/Sale.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/SaleProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/Souvenirs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/User$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/Videogames.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/repository/EmployeeRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/model/repository/EmployeeRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/view/ManageStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/view/ManageStock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Accesories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Accesories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Consoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Consoles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Souvenirs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Souvenirs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Videogames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Videogames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/view/CreateProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/view/CreateProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/view/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/view/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/CCreateProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/controller/CCreateProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Accesories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Accesories.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Consoles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Consoles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Product$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Product$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Souvenirs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Souvenirs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Videogames.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Videogames.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/view/CreateProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/view/CreateProduct.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +102,7 @@
       <updated>1585615520920</updated>
       <workItem from="1585615527371" duration="31382000" />
       <workItem from="1585904993312" duration="12794000" />
-      <workItem from="1585980588503" duration="7348000" />
+      <workItem from="1585980588503" duration="8452000" />
     </task>
     <servers />
   </component>
@@ -134,10 +114,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1585616257954" />
-    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1585987620852">
+    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1585989771499">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1585987620852" />
+    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1585989771499" />
     <state x="622" y="355" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585934328016">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -154,22 +134,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1585934969077" />
-    <state width="1557" height="644" key="GridCell.Tab.0.bottom" timestamp="1585989190049">
+    <state width="1557" height="409" key="GridCell.Tab.0.bottom" timestamp="1585990125926">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="644" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585989190049" />
-    <state width="1557" height="644" key="GridCell.Tab.0.center" timestamp="1585989190048">
+    <state width="1557" height="409" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585990125926" />
+    <state width="1557" height="409" key="GridCell.Tab.0.center" timestamp="1585990125925">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="644" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585989190048" />
-    <state width="1557" height="644" key="GridCell.Tab.0.left" timestamp="1585989190048">
+    <state width="1557" height="409" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585990125925" />
+    <state width="1557" height="409" key="GridCell.Tab.0.left" timestamp="1585990125925">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="644" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585989190048" />
-    <state width="1557" height="644" key="GridCell.Tab.0.right" timestamp="1585989190049">
+    <state width="1557" height="409" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585990125925" />
+    <state width="1557" height="409" key="GridCell.Tab.0.right" timestamp="1585990125925">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="644" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585989190049" />
+    <state width="1557" height="409" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585990125925" />
     <state x="301" y="72" key="SettingsEditor" timestamp="1585615588849">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
