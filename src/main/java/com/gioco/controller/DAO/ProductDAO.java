@@ -37,7 +37,7 @@ public class ProductDAO {
     public String toString() {
         String toReturn = "";
         for (Product p : products) {
-            toReturn += "\n\n" + p.toString();
+            toReturn += "\n\n" + p.toString("s");
         }
         return toReturn;
     }

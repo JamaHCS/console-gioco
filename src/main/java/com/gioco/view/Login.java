@@ -24,7 +24,7 @@ public class Login implements IVisualizable {
             login.setPassword();
 
             login.setUserLoged(login.validateUser(login.getUser(), login.getPassword()));
-            if (login.getUserLoged() != 0) {
+            if (login.getUserLoged() != null) {
                 logged = true;
             }
         } while (!logged);

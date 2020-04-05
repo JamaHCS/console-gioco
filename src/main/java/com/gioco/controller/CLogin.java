@@ -11,19 +11,15 @@ import static com.gioco.model.repository.EmployeeRepo.employees;
 
 public class CLogin {
     private EmployeeRepo employeeRepo = new EmployeeRepo();
-    private int userLoged = 0;
+    public static Employee userLoged = null;
     private String user = "";
     private String password = "";
 
     public CLogin() {
     }
 
-    public int getUserLoged() {
+    public Employee getUserLoged() {
         return userLoged;
-    }
-
-    public void setUserLoged(int userLoged) {
-        this.userLoged = userLoged;
     }
 
     public String getUser() {
@@ -45,17 +41,17 @@ public class CLogin {
     }
 
 
-    public int validateUser(String user, String password) {
-        int employeeId = 0;
+    public Employee validateUser(String user, String password) {
+        Employee employee = null;
 
         for (Employee e : employees) {
             if (user.equals(e.getNickname()) && password.equals(e.getPassword())) {
-                employeeId = e.getId();
+                employee = e;
                 System.out.println("\n" + ANSI_YELLOW + "Empleado obtenido" + ANSI_RESET);
                 System.out.println(e.toString() + "\n");
             }
         }
-        return employeeId;
+        return employee;
     }
 
 }

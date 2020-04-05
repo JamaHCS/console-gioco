@@ -139,8 +139,7 @@ public class Client extends User {
 
     public String toString(String shortToString) {
         return "Id: " + this.getId() +
-                "\nNickname: " + this.getNickname() +
-                "\nEmail: " + this.getEmail() +
-                "\nNombre: " + this.getFullName() + ".";
+                "\nNombre: " + this.getFullName() +
+                "\nEmail: " + this.getEmail();
     }
 }

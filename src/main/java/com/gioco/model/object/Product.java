@@ -106,4 +106,11 @@ public abstract class Product {
                 ".\nMarca: " + this.brand + '\'' +
                 ".\nPlataforma: " + this.platform + ".";
     }
+
+    public String toString(String shortToString) {
+        return "Id: " + this.productId +
+                ".\nNombre: " + this.productName +
+                ".\nPrecio: " + this.productPrice +
+                ".\nStock: " + this.productStock;
+    }
 }

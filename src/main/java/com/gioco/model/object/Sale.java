@@ -3,17 +3,30 @@ package com.gioco.model.object;
 import java.util.ArrayList;
 import java.util.Date;
 
+import static com.gioco.controller.CManageStock.productDAO;
+
 public class Sale {
+    private static int it = 1;
     private int id;
     private Date dateOfSale;
     private String branchOffice;
-    private String status;
-    private float subTotal;
-    private float taxes;
-    private float total;
-    private ArrayList<SaleProduct> products = new ArrayList<>();
+    private String status = "Vendido";
+    private double subTotal;
+    private double taxes;
+    private double total;
+    public ArrayList<SaleProduct> products = new ArrayList<>();
 
     public Sale() {
+        id = it;
+        it++;
+    }
+
+    public Sale(String s) {
+    }
+
+    public Sale(Date dateOfSale, String branchOffice) {
+        this.dateOfSale = dateOfSale;
+        this.branchOffice = branchOffice;
     }
 
     public int getId() {
@@ -48,27 +61,35 @@ public class Sale {
         this.status = status;
     }
 
-    public float getSubTotal() {
+    public double getSubTotal() {
         return subTotal;
     }
 
-    public void setSubTotal(float subTotal) {
+    public void setSubTotal(double subTotal) {
         this.subTotal = subTotal;
     }
 
-    public float getTaxes() {
+    public double getTaxes() {
         return taxes;
     }
 
-    public void setTaxes(float taxes) {
+    public void setTaxes(double taxes) {
         this.taxes = taxes;
     }
 
-    public float getTotal() {
+    public double getTotal() {
         return total;
     }
 
-    public void setTotal(float total) {
+    public double generateTotal() {
+        double total = 0;
+        for (SaleProduct s : this.products) {
+            total += s.getPrice();
+        }
+        return total;
+    }
+
+    public void setTotal(double total) {
         this.total = total;
     }
 
@@ -79,4 +100,5 @@ public class Sale {
     public void setProducts(ArrayList<SaleProduct> products) {
         this.products = products;
     }
+
 }
