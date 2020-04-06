@@ -8,7 +8,7 @@ public class SaleProduct {
     private int productId;
     private int quantity;
     private Product product;
-    private float price = Objects.requireNonNull(product).getProductPrice();
+    private float price;
 
     public SaleProduct() {
     }
@@ -18,6 +18,7 @@ public class SaleProduct {
         this.productId = productId;
         this.quantity = quantity;
         this.product = product;
+        this.price = product.getProductPrice();
     }
 
     public int getSaleId() {

@@ -25,12 +25,15 @@ public class SaleDAO {
             System.out.println("Seleccione el producto a vender.");
             int idProduct = Tools.getId();
             int quantity = Tools.getInt("cantidad");
-            sale.products.add(new SaleProduct(sale.getId(), idProduct, quantity, productDAO.searchProduct(idProduct)));
+
+            SaleProduct product = new SaleProduct(sale.getId(), idProduct, quantity, productDAO.searchProduct(idProduct));
+
+            sale.products.add(product);
 
             System.out.println("Desea ingresar otro articulo a la venta? y/n");
             Scanner theScanner = new Scanner(System.in);
             option = theScanner.nextLine();
-        } while (!option.equals("y"));
+        } while (option.equals("y"));
 
         Date date = new Date();
         sale.setDateOfSale(date);
@@ -39,6 +42,18 @@ public class SaleDAO {
         sale.setSubTotal((sale.getTotal() - (sale.getTotal() * 0.16)));
         sale.setTaxes(sale.getTotal() * 0.16);
 
+        if (!sale.collect()) {
+            sale = null;
+        }
         return sale;
+    }
+
+    public void addSale(Sale sale) {
+        if (sale != null) {
+            sales.add(sale);
+            for (SaleProduct p : sale.products){
+
+            }
+        }
     }
 }

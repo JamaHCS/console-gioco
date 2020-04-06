@@ -1,7 +1,6 @@
 package com.gioco.model.repository;
 
 import com.gioco.model.object.Client;
-import com.gioco.model.object.User;
 
 import java.util.ArrayList;
 

@@ -22,6 +22,10 @@ public class CLogin {
         return userLoged;
     }
 
+    public void setUserLoged(Employee employee) {
+        userLoged = employee;
+    }
+
     public String getUser() {
         return user;
     }

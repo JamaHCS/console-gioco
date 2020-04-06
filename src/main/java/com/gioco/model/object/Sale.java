@@ -1,9 +1,13 @@
 package com.gioco.model.object;
 
+import com.gioco.controller.Tools;
+
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Scanner;
 
-import static com.gioco.controller.CManageStock.productDAO;
+import static com.gioco.controller.Tools.ANSI_PURPLE;
+import static com.gioco.controller.Tools.ANSI_RESET;
 
 public class Sale {
     private static int it = 1;
@@ -101,4 +105,21 @@ public class Sale {
         this.products = products;
     }
 
+    public boolean collect() {
+        Tools.padding();
+        System.out.println("Favor de cobrar la cantidad de: $" + this.getTotal());
+        Scanner theScanner = new Scanner(System.in);
+        System.out.println("1.- Cobrar");
+        System.out.println("0.- Cancelar venta");
+        int option = Tools.getOption();
+
+        if (option == 1) {
+            System.out.println(Tools.ANSI_GREEN + "Cobrado. Venta generada." + ANSI_RESET);
+            return true;
+        } else {
+            it--;
+            System.out.println(ANSI_PURPLE + "Venta cancelada." + ANSI_RESET);
+            return false;
+        }
+    }
 }

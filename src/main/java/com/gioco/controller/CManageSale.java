@@ -2,6 +2,8 @@ package com.gioco.controller;
 
 import com.gioco.controller.DAO.SaleDAO;
 
+import static com.gioco.model.repository.SaleRepo.sales;
+
 public class CManageSale implements IController {
     private int optionSelected;
     public static SaleDAO saleDAO = new SaleDAO();
@@ -14,6 +16,7 @@ public class CManageSale implements IController {
     public void controller() {
         switch (optionSelected) {
             case 1:
+                saleDAO.addSale(saleDAO.newSale());
                 break;
             case 2:
                 break;

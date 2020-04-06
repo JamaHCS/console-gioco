@@ -3,6 +3,7 @@ package com.gioco.controller;
 import com.gioco.model.repository.ClientRepo;
 import com.gioco.model.repository.ProductRepo;
 import com.gioco.view.ManageClient;
+import com.gioco.view.ManageSale;
 import com.gioco.view.ManageStock;
 
 public class CMainMenu implements IController {
@@ -33,6 +34,8 @@ public class CMainMenu implements IController {
                 manageClient.show();
                 break;
             case 3:
+                ManageSale manageSale = new ManageSale();
+                manageSale.show();
                 break;
         }
     }

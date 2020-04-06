@@ -3,8 +3,6 @@ package com.gioco.view;
 import com.gioco.controller.CMainMenu;
 import com.gioco.controller.Tools;
 
-import java.util.Date;
-
 public class MainMenu implements IVisualizable {
     private int option = 0;
 
