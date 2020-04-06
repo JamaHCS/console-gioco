@@ -9,6 +9,9 @@ import java.util.Scanner;
 import static com.gioco.controller.Tools.ANSI_PURPLE;
 import static com.gioco.controller.Tools.ANSI_RESET;
 
+/**
+ * Clase propia de las ventas a realizar.
+ */
 public class Sale {
     private static int it = 1;
     private int id;
@@ -124,6 +127,12 @@ public class Sale {
         this.products = products;
     }
 
+
+    /**
+     * Clase hecha para cobrar la cuenta de una venta.
+     *
+     * @return un valor boleano que te indica si se ha cobrado con exito la venta.
+     */
     public boolean collect() {
         Tools.padding();
         System.out.println("Favor de cobrar la cantidad de: $" + this.getTotal());

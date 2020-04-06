@@ -1,5 +1,9 @@
 package com.gioco.model.object;
 
+
+/**
+ * Clase abstracta propia de los usuarios del programa.
+ */
 public abstract class User {
     private static int it = 1;
     private int id;
@@ -100,6 +104,12 @@ public abstract class User {
         this.lastName = lastName;
     }
 
+
+    /**
+     * Al momento de solicitar el full name, lo que se hace es que se juntan los nombres pedidos por separado en un string
+     *
+     * @return Retorna un string con el nombre completo.
+     */
     public String getFullName() {
         this.fullName = firstName + " " + secondName + " " + middleName + " " + lastName;
         return fullName;
@@ -157,6 +167,12 @@ public abstract class User {
         this.status = status;
     }
 
+
+    /**
+     * Clase hecha para generar nuevo usuario
+     *
+     * @return El usuario generado.
+     */
     public User addUser() {
         return new User() {
             @Override

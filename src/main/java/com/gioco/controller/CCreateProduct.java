@@ -8,6 +8,10 @@ import com.gioco.model.object.Videogames;
 
 import static com.gioco.controller.CManageStock.productDAO;
 
+
+/**
+ * En esta clase se  maneja la lógica de la creación de los productos de acuerdo a la opción escogida anteriormente.
+ */
 public class CCreateProduct implements IController {
     private int optionSelected;
 

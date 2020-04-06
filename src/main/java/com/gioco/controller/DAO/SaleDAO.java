@@ -16,7 +16,27 @@ import static com.gioco.controller.DAO.ProductDAO.searchProduct;
 import static com.gioco.controller.Tools.*;
 import static com.gioco.model.repository.SaleRepo.sales;
 
+/**
+ * Sale Data Access Object
+ * <p>
+ * Esta forma de manejar la lógica del manejo de objetos, la venía intuyendo desde las primeras practicas,
+ * cuando investigué sobre como hacer conexión con base de datos me percaté que con una clase externa es como
+ * se hace manejo en la creación, solicitud y consultas del objeto en cuestión, y no de forma embebida como lo
+ * veníamos haciendo en clase. Así que se me hizo una forma mas organizada de hacer manejo de estos metodos.
+ * </p>
+ * Practicamente esta clase de encarga de hacer manejo de la lógica de las operaciones CRUD del objeto.
+ *
+ * @see com.gioco.model.object.Sale
+ * @see com.gioco.model.object.SaleProduct
+ * @see com.gioco.model.repository.SaleRepo
+ */
 public class SaleDAO {
+
+    /**
+     * Clase que se encarga de generar nueva venta.
+     *
+     * @return una nueva venta generada por el metodo.
+     */
     public Sale newSale() {
         Tools.padding();
         Tools.printTitle("Gioco - Nueva venta.");
@@ -75,12 +95,29 @@ public class SaleDAO {
         return sale;
     }
 
+    /**
+     * <p>
+     * Clase que recibe un producto generado en la clase del objeto y lo agrega al arrayList de
+     * estos objetos (Nuestro repositorio que hace la función de base de datos embebida en el programa
+     * con persistencia existente solo durante el tiempo de vida de ejecucipon del programa.
+     * </p>
+     *
+     * @param sale Recibe una venta
+     */
     public static void addSale(Sale sale) {
         if (sale != null) {
             sales.add(sale);
         }
     }
 
+    /**
+     * Metodo hecho para poder eliminar un objeto del repositorio. En un curso de base de datos
+     * nos mencionaban que se recomendaba nunca borrar un dato imprtante, porque a terminos de data
+     * del negocio, no es bueno eliminar información. Bajo estos terminos, lo que se hizo fue en lugar de eliminar el objeto,
+     * el estado del mismo fue cambiado a "eliminada".
+     *
+     * @param id Id del objeto a eliminar
+     */
     public static void removeSale(int id) {
         if (sales.removeIf(s -> s.getId() == id)) {
             System.out.println(ANSI_YELLOW + "Eliminado." + ANSI_RESET);
@@ -89,6 +126,9 @@ public class SaleDAO {
         }
     }
 
+    /**
+     * Metodo encargado de imprimir todas las ventas no "Eliminadas"
+     */
     public static void printSales() {
         Tools.padding();
         Tools.printTitle("Gioco - Ventas");

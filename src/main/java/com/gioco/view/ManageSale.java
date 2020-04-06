@@ -3,6 +3,9 @@ package com.gioco.view;
 import com.gioco.controller.CManageSale;
 import com.gioco.controller.Tools;
 
+/**
+ * Clase encargada de mostrar el menú de las venta.
+ */
 public class ManageSale implements IVisualizable {
     private int option = 0;
 

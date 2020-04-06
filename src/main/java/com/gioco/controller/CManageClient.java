@@ -3,6 +3,9 @@ package com.gioco.controller;
 import com.gioco.controller.DAO.ClientDAO;
 import com.gioco.model.object.Client;
 
+/**
+ * Clase hecha para poder hacer uso de la lógica en el menú de los clientes.
+ */
 public class CManageClient implements IController {
     private int optionSelected;
     public static ClientDAO clientDAO = new ClientDAO();

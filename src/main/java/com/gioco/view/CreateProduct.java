@@ -3,6 +3,10 @@ package com.gioco.view;
 import com.gioco.controller.CCreateProduct;
 import com.gioco.controller.Tools;
 
+
+/**
+ * Clase encargada de la visualización del menú para crear nuevo producto.
+ */
 public class CreateProduct implements IVisualizable {
     private int option = 0;
 

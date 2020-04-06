@@ -2,6 +2,9 @@ package com.gioco.model.object;
 
 import com.gioco.controller.Tools;
 
+/**
+ * Clase propia del producto a vender tipo consola.
+ */
 public class Consoles extends Product {
     private String model;
     private float capacity;

@@ -3,6 +3,12 @@ package com.gioco.view;
 import com.gioco.controller.CLogin;
 import com.gioco.controller.Tools;
 
+/**
+ * Clase que se encarga de la visualización del login
+ *
+ *
+ */
+
 public class Login implements IVisualizable {
     private static CLogin login = new CLogin();
     private boolean logged = false;

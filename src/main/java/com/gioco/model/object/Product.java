@@ -1,5 +1,8 @@
 package com.gioco.model.object;
 
+/**
+ * Clase abstracta de productos a vender.
+ */
 public abstract class Product {
     private static int it = 1;
     private int productId;
@@ -87,6 +90,13 @@ public abstract class Product {
         this.platform = platform;
     }
 
+
+    /**
+     * Metodo usado para generar productos. En su instancia padre, finaliza el objeto padre (Object), solo lo usé así para que lo pueda despues sobre escribir en los hijos,
+     * pues al ser una clase abstracta no debería de estar haciendo uso de este metodo en una instancia de esta clase.
+     *
+     * @return El objeto generado.
+     */
     public Product generateProduct() {
         return new Product() {
             @Override

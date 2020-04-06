@@ -2,6 +2,9 @@ package com.gioco.model.object;
 
 import com.gioco.controller.Tools;
 
+/**
+ * Clase propia del producto a vender tipo Videojuego.
+ */
 public class Videogames extends Product {
     private String esrb;
     private String gameType;

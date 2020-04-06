@@ -3,6 +3,10 @@ package com.gioco.view;
 import com.gioco.controller.CManageStock;
 import com.gioco.controller.Tools;
 
+
+/**
+ * Clase encargada de visualizar el menú de manejo de productos.
+ */
 public class ManageStock implements IVisualizable {
     private int option = 0;
 

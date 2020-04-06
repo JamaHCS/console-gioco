@@ -2,6 +2,9 @@ package com.gioco.model.object;
 
 import com.gioco.controller.Tools;
 
+/**
+ * Clase propia del objeto cliente.
+ */
 public class Client extends User {
     private String rfc;
     private String curp;
@@ -125,6 +128,12 @@ public class Client extends User {
         return new Client(nickname, password, firstName, secondName, middleName, lastName, fullName, bornDate, email, phoneNumber, userType, since, status, rfc, curp, street, exteriorN, interiorN, postalCode, colony);
     }
 
+
+    /**
+     * En esta clase usamos un toString normal, que te regresa la información completa del usuario.
+     *
+     * @return Información completa del usuario
+     */
     @Override
     public String toString() {
         return super.toString() +
@@ -137,6 +146,13 @@ public class Client extends User {
                 "\nColonia: " + this.colony;
     }
 
+    /**
+     * Tambien implementamos un toString que nos regrese la información mas importante de un cliente para identificarlo,
+     * para poderlo mostrar en la lista de clientes sin saturar la pantalla de información por cliente.
+     *
+     * @param shortToString Un string cualquiera que indica que se hará uso de la versión corta del toString
+     * @return Información resumida del cliente.
+     */
     public String toString(String shortToString) {
         return "Id: " + this.getId() +
                 "\nNombre: " + this.getFullName() +

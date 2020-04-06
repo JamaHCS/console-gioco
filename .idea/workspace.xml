@@ -1,26 +1,241 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Console-Gioco-Project:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="28c480b0-d821-4e36-b654-0790b8261be4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Console_Gioco_Project_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/class-use/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/CCreateProduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/CLogin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/CMainMenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/CManageClient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/CManageSale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/CManageStock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/DAO/ClientDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/DAO/ProductDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/DAO/SaleDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/DAO/class-use/ClientDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/DAO/class-use/ProductDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/DAO/class-use/SaleDAO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/DAO/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/DAO/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/DAO/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/IController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/Tools.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/class-use/CCreateProduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/class-use/CLogin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/class-use/CMainMenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/class-use/CManageClient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/class-use/CManageSale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/class-use/CManageStock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/class-use/IController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/class-use/Tools.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/controller/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/Accesories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/Client.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/Consoles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/Employee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/Product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/Sale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/SaleProduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/Souvenirs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/User.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/Videogames.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/class-use/Accesories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/class-use/Client.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/class-use/Consoles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/class-use/Employee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/class-use/Product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/class-use/Sale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/class-use/SaleProduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/class-use/Souvenirs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/class-use/User.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/class-use/Videogames.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/object/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/repository/ClientRepo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/repository/EmployeeRepo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/repository/IFilleable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/repository/ProductRepo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/repository/SaleRepo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/repository/class-use/ClientRepo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/repository/class-use/EmployeeRepo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/repository/class-use/IFilleable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/repository/class-use/ProductRepo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/repository/class-use/SaleRepo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/repository/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/repository/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/model/repository/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/view/CreateProduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/view/IVisualizable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/view/Login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/view/MainMenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/view/ManageClient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/view/ManageSale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/view/ManageStock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/view/class-use/CreateProduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/view/class-use/IVisualizable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/view/class-use/Login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/view/class-use/MainMenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/view/class-use/ManageClient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/view/class-use/ManageSale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/view/class-use/ManageStock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/view/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/view/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/gioco/view/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-16.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-17.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-18.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-19.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-20.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-21.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-22.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/member-search-index.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/package-search-index.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/external/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_65_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.structure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jszip-utils/dist/jszip-utils-ie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jszip-utils/dist/jszip-utils-ie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jszip-utils/dist/jszip-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jszip-utils/dist/jszip-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jszip/dist/jszip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script-dir/jszip/dist/jszip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/type-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/type-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CCreateProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CCreateProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CMainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CMainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CManageClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CManageClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CManageSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CManageSale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CManageStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CManageStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/DAO/ClientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/DAO/ClientDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/DAO/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/DAO/ProductDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/DAO/SaleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/DAO/SaleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/IController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/IController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/Tools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/Validating.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Accesories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Accesories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Consoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Consoles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Sale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/SaleProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/SaleProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Souvenirs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Souvenirs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Videogames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Videogames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/ClientRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/ClientRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/EmployeeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/EmployeeRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/CLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/controller/CLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/CManageSale.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/controller/CManageSale.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/CManageStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/controller/CManageStock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/DAO/ProductDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/controller/DAO/ProductDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/DAO/SaleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/controller/DAO/SaleDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Sale.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Sale.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/SaleProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/model/object/SaleProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/User$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/model/object/User$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/model/object/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/repository/EmployeeRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/model/repository/EmployeeRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/IFilleable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/IFilleable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/ProductRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/SaleRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/SaleRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/view/CreateProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/view/CreateProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/view/IVisualizable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/view/IVisualizable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/view/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/view/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/view/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/view/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/view/ManageClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/view/ManageClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/view/ManageSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/view/ManageSale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/view/ManageStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/view/ManageStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/CCreateProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/CLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/CMainMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/CManageClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/CManageSale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/CManageStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/DAO/ClientDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/DAO/ProductDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/DAO/SaleDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/IController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/Tools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/Validating.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Accesories.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Consoles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Product$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Sale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/SaleProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Souvenirs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/User$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Videogames.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/repository/ClientRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/repository/EmployeeRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/repository/IFilleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/repository/ProductRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/repository/SaleRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/view/CreateProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/view/IVisualizable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/view/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/view/MainMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/view/ManageClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/view/ManageSale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/view/ManageStock.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,19 +265,23 @@
     </option>
   </component>
   <component name="ProjectId" id="1Zs6ane0lfNidKXHBvVYlHc2leM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/gioco/model" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/META-INF/inf" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15136719" />
     <property name="project.structure.side.proportion" value="0.3586207" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -106,12 +325,16 @@
       <workItem from="1585904993312" duration="12794000" />
       <workItem from="1585980588503" duration="35411000" />
       <workItem from="1586151523719" duration="28000" />
-      <workItem from="1586151578029" duration="3605000" />
+      <workItem from="1586151578029" duration="5497000" />
+      <workItem from="1586164035257" duration="6676000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="88" key="#Project_Structure" timestamp="1585616257954">
@@ -122,6 +345,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="424" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1586136830129" />
+    <state x="551" y="218" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586164322470">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="551" y="218" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1586164322470" />
     <state x="480" y="158" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586151533657">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -142,34 +369,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1585934969077" />
-    <state x="516" y="162" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586119708897">
+    <state x="516" y="162" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586215042100">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="516" y="162" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1586119708897" />
-    <state width="1557" height="402" key="GridCell.Tab.0.bottom" timestamp="1586160082592">
+    <state x="516" y="162" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1586215042100" />
+    <state x="538" y="178" key="FileChooserDialogImpl" timestamp="1586215040575">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="402" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586160082592" />
-    <state width="1557" height="402" key="GridCell.Tab.0.center" timestamp="1586160082591">
+    <state x="538" y="178" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1586215040575" />
+    <state width="1557" height="402" key="GridCell.Tab.0.bottom" timestamp="1586215438617">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="402" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1586160082591" />
-    <state width="1557" height="402" key="GridCell.Tab.0.left" timestamp="1586160082591">
+    <state width="1557" height="402" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586215438617" />
+    <state width="1557" height="402" key="GridCell.Tab.0.center" timestamp="1586215438617">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="402" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1586160082591" />
-    <state width="1557" height="402" key="GridCell.Tab.0.right" timestamp="1586160082592">
+    <state width="1557" height="402" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1586215438617" />
+    <state width="1557" height="402" key="GridCell.Tab.0.left" timestamp="1586215438617">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="402" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1586160082592" />
-    <state x="301" y="72" key="SettingsEditor" timestamp="1585615588849">
+    <state width="1557" height="402" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1586215438617" />
+    <state width="1557" height="402" key="GridCell.Tab.0.right" timestamp="1586215438617">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1585615588849" />
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1586151580739">
+    <state width="1557" height="402" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1586215438617" />
+    <state x="301" y="9" key="SettingsEditor" timestamp="1586215417047">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1586151580739" />
+    <state x="301" y="9" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1586215417047" />
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1586164038845">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1586164038845" />
     <state x="643" y="0" width="658" height="847" key="dock-window-1" timestamp="1585984750553">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

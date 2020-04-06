@@ -4,6 +4,9 @@ import com.gioco.controller.DAO.SaleDAO;
 
 import static com.gioco.controller.DAO.SaleDAO.*;
 
+/**
+ * Clase encargada del manejo de la lógica en la pantalla de ventas.
+ */
 public class CManageSale implements IController {
     private int optionSelected;
     public static SaleDAO saleDAO = new SaleDAO();

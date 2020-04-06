@@ -3,6 +3,10 @@ package com.gioco.view;
 import com.gioco.controller.CManageClient;
 import com.gioco.controller.Tools;
 
+
+/**
+ * Clase hecha para poder hacer manejo de los clientes.
+ */
 public class ManageClient implements IVisualizable {
     private int option = 0;
 

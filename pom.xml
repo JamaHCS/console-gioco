@@ -17,12 +17,19 @@
         </dependency>
     </dependencies>
 
+
+    <!--    Para correr con JDK 8-->
+    <!--    <properties>-->
+    <!--        <maven.compiler.source>1.08-->
+    <!--        </maven.compiler.source>-->
+    <!--        <maven.compiler.target>1.08</maven.compiler.target>-->
+    <!--    </properties>-->
+
+    <!--    Para correr con JDK 13-->
     <properties>
         <maven.compiler.source>1.13</maven.compiler.source>
         <maven.compiler.target>1.13</maven.compiler.target>
     </properties>
-
-
 
 
 </project>

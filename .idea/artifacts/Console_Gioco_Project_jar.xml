@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Console-Gioco-Project:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Console_Gioco_Project_jar</output-path>
+    <properties id="ant-postprocessing">
+      <options enabled="true" />
+    </properties>
+    <properties id="ant-preprocessing">
+      <options enabled="true" />
+    </properties>
+    <root id="archive" name="Console-Gioco-Project.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/inf/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Console-Gioco-Project" />
+    </root>
+  </artifact>
+</component>

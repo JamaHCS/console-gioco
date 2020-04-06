@@ -6,6 +6,10 @@ import com.gioco.view.ManageClient;
 import com.gioco.view.ManageSale;
 import com.gioco.view.ManageStock;
 
+
+/**
+ * Clase encargada del control de la lógica del menú principal
+ */
 public class CMainMenu implements IController {
     private int optionSelected;
     public static ProductRepo productRepo = new ProductRepo();
@@ -13,14 +17,6 @@ public class CMainMenu implements IController {
 
     public CMainMenu(int option) {
         this.optionSelected = option;
-    }
-
-    public int getOptionSelected() {
-        return optionSelected;
-    }
-
-    public void setOptionSelected(int optionSelected) {
-        this.optionSelected = optionSelected;
     }
 
     public void controller() {

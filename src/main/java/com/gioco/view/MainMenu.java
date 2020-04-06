@@ -3,6 +3,10 @@ package com.gioco.view;
 import com.gioco.controller.CMainMenu;
 import com.gioco.controller.Tools;
 
+/**
+ * Clase que se encarga de visualizar el menú pricipal.
+ */
+
 public class MainMenu implements IVisualizable {
     private int option = 0;
 

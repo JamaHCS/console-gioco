@@ -1,7 +1,9 @@
 package com.gioco.model.object;
 
 import com.gioco.controller.Tools;
-
+/**
+ * Clase propia del producto a vender tipo accesorio.
+ */
 public class Accesories extends Product {
     private String typeOf;
     private String details;

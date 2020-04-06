@@ -4,6 +4,10 @@ import com.gioco.model.object.Client;
 
 import java.util.ArrayList;
 
+/**
+ * Clase repositorio de clientes, aquí es donde se guardan los clientes que se vayan generando.
+ * (Se podría omitir esta clase y solo agregar el array list en otro lado, pero me gusta como queda mas organizado así).
+ */
 public class ClientRepo implements IFilleable {
     public static ArrayList<Client> clients = new ArrayList<>();
 

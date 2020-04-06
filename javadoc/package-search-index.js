@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.gioco.controller"},{"l":"com.gioco.controller.DAO"},{"l":"com.gioco.model.object"},{"l":"com.gioco.model.repository"},{"l":"com.gioco.view"}]

@@ -1,7 +1,9 @@
 package com.gioco.model.object;
 
 import com.gioco.controller.Tools;
-
+/**
+ * Clase propia del producto a vender tipo Souvenir.
+ */
 public class Souvenirs extends Product {
     private String type;
     private String collectionOf;

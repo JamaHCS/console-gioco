@@ -1,5 +1,8 @@
 package com.gioco.model.object;
 
+/**
+ * Clase encargada de generar la "venta" individual por producto de nuestra venta.
+ */
 public class SaleProduct {
 
     private int saleId;

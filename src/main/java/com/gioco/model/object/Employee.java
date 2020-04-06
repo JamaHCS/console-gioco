@@ -2,6 +2,10 @@ package com.gioco.model.object;
 
 import com.gioco.controller.Tools;
 
+
+/**
+ * Clase propia del objeto de un trabajador de la sucursal.
+ */
 public class Employee extends User {
     private int idSupervisor;
     private String branch;

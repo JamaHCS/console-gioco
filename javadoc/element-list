@@ -1,0 +1,6 @@
+unnamed package
+com.gioco.controller
+com.gioco.controller.DAO
+com.gioco.model.object
+com.gioco.model.repository
+com.gioco.view

@@ -5,10 +5,12 @@ import com.gioco.model.repository.EmployeeRepo;
 
 import java.util.Scanner;
 
-import static com.gioco.controller.Tools.ANSI_RESET;
-import static com.gioco.controller.Tools.ANSI_YELLOW;
+import static com.gioco.controller.Tools.*;
 import static com.gioco.model.repository.EmployeeRepo.employees;
 
+/**
+ * Clase que se encarga del manejo de la lógica en el inicio de sesión de los trabajadores.
+ */
 public class CLogin {
     private EmployeeRepo employeeRepo = new EmployeeRepo();
     public static Employee userLoged = null;
@@ -45,6 +47,14 @@ public class CLogin {
     }
 
 
+    /**
+     * Metodo que se encarga de validar las credenciales introducidas por el usuario
+     * en la ventana de login
+     *
+     * @param user     nickname del usuario
+     * @param password contraseña del usuario
+     * @return el usuario
+     */
     public Employee validateUser(String user, String password) {
         Employee employee = null;
 
@@ -53,6 +63,8 @@ public class CLogin {
                 employee = e;
                 System.out.println("\n" + ANSI_YELLOW + "Sesión iniciada." + ANSI_RESET + "\n");
                 System.out.println(e.toString() + "\n");
+            } else {
+                System.out.println(ANSI_RED + "Credenciales incorrectas." + ANSI_RESET);
             }
         }
         return employee;
