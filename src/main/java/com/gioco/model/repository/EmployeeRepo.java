@@ -27,5 +27,6 @@ public class EmployeeRepo implements IFilleable {
         jamaEmplooyee.setPhoneNumber("7731598533");
         jamaEmplooyee.setUserType(1);
         jamaEmplooyee.setStatus(1);
+        jamaEmplooyee.setBranch("Antea");
     }
 }

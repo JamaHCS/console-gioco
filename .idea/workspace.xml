@@ -4,23 +4,23 @@
     <list default="true" id="28c480b0-d821-4e36-b654-0790b8261be4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CMainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CMainMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CManageSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/CManageSale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/DAO/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/DAO/ProductDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/DAO/SaleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/DAO/SaleDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/controller/IController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/controller/IController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Sale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/SaleProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/SaleProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/ClientRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/ClientRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/IFilleable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/IFilleable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/view/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/view/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/EmployeeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/repository/EmployeeRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/CLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/controller/CLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/CMainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/controller/CMainMenu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/CManageSale.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/controller/CManageSale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/CManageStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/controller/CManageStock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/DAO/ProductDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/controller/DAO/ProductDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/controller/DAO/SaleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/controller/DAO/SaleDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Sale.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/model/object/Sale.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/SaleProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/model/object/SaleProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/repository/ClientRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/model/repository/ClientRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/view/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/view/MainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/User$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/model/object/User$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/object/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/model/object/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/model/repository/EmployeeRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/model/repository/EmployeeRepo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,9 @@
       <updated>1585615520920</updated>
       <workItem from="1585615527371" duration="31382000" />
       <workItem from="1585904993312" duration="12794000" />
-      <workItem from="1585980588503" duration="30964000" />
+      <workItem from="1585980588503" duration="35411000" />
+      <workItem from="1586151523719" duration="28000" />
+      <workItem from="1586151578029" duration="3605000" />
     </task>
     <servers />
   </component>
@@ -116,10 +118,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1585616257954" />
-    <state x="424" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1586075470970">
+    <state x="424" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1586136830129">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="424" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1586075470970" />
+    <state x="424" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1586136830129" />
+    <state x="480" y="158" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586151533657">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="480" y="158" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.860@0.0.1600.860" timestamp="1586151533657" />
     <state x="622" y="355" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585934328016">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -140,30 +146,30 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="516" y="162" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1586119708897" />
-    <state width="1557" height="381" key="GridCell.Tab.0.bottom" timestamp="1586130746446">
+    <state width="1557" height="402" key="GridCell.Tab.0.bottom" timestamp="1586160082592">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="381" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586130746446" />
-    <state width="1557" height="381" key="GridCell.Tab.0.center" timestamp="1586130746445">
+    <state width="1557" height="402" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586160082592" />
+    <state width="1557" height="402" key="GridCell.Tab.0.center" timestamp="1586160082591">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="381" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1586130746445" />
-    <state width="1557" height="381" key="GridCell.Tab.0.left" timestamp="1586130746445">
+    <state width="1557" height="402" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1586160082591" />
+    <state width="1557" height="402" key="GridCell.Tab.0.left" timestamp="1586160082591">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="381" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1586130746445" />
-    <state width="1557" height="381" key="GridCell.Tab.0.right" timestamp="1586130746446">
+    <state width="1557" height="402" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1586160082591" />
+    <state width="1557" height="402" key="GridCell.Tab.0.right" timestamp="1586160082592">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="381" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1586130746446" />
+    <state width="1557" height="402" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1586160082592" />
     <state x="301" y="72" key="SettingsEditor" timestamp="1585615588849">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1585615588849" />
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1585980588459">
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1586151580739">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585980588459" />
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1586151580739" />
     <state x="643" y="0" width="658" height="847" key="dock-window-1" timestamp="1585984750553">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

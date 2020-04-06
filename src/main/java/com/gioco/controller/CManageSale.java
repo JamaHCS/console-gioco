@@ -2,7 +2,7 @@ package com.gioco.controller;
 
 import com.gioco.controller.DAO.SaleDAO;
 
-import static com.gioco.model.repository.SaleRepo.sales;
+import static com.gioco.controller.DAO.SaleDAO.*;
 
 public class CManageSale implements IController {
     private int optionSelected;
@@ -16,11 +16,13 @@ public class CManageSale implements IController {
     public void controller() {
         switch (optionSelected) {
             case 1:
-                saleDAO.addSale(saleDAO.newSale());
+                addSale(saleDAO.newSale());
                 break;
             case 2:
+                printSales();
                 break;
             case 3:
+                removeSale(Tools.getId());
                 break;
         }
     }

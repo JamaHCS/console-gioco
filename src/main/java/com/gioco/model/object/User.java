@@ -101,10 +101,8 @@ public abstract class User {
     }
 
     public String getFullName() {
-        if (this.fullName.equals(null)) {
-            this.fullName = firstName + " " + secondName + " " + middleName + " " + lastName;
-            return fullName;
-        } else return fullName;
+        this.fullName = firstName + " " + secondName + " " + middleName + " " + lastName;
+        return fullName;
     }
 
     public void setFullName(String fullName) {

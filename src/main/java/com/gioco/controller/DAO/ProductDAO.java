@@ -10,7 +10,7 @@ public class ProductDAO {
         products.add(product);
     }
 
-    public Product searchProduct(int id) {
+    public static Product searchProduct(int id) {
         Product product = null;
 
         for (Product p : products) {
@@ -25,7 +25,7 @@ public class ProductDAO {
         return product;
     }
 
-    public void removeProduct(int id) {
+    public static void removeProduct(int id) {
         if (products.removeIf(p -> p.getProductId() == id)) {
             System.out.println(ANSI_YELLOW + "Eliminado." + ANSI_RESET);
         } else {

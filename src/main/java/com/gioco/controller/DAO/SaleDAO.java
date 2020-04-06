@@ -1,14 +1,19 @@
 package com.gioco.controller.DAO;
 
-import com.gioco.controller.CLogin;
 import com.gioco.controller.Tools;
+import com.gioco.model.object.Client;
+import com.gioco.model.object.Product;
 import com.gioco.model.object.Sale;
 import com.gioco.model.object.SaleProduct;
 
 import java.util.Date;
 import java.util.Scanner;
 
+import static com.gioco.controller.CLogin.userLoged;
+import static com.gioco.controller.CManageClient.clientDAO;
 import static com.gioco.controller.CManageStock.productDAO;
+import static com.gioco.controller.DAO.ProductDAO.searchProduct;
+import static com.gioco.controller.Tools.*;
 import static com.gioco.model.repository.SaleRepo.sales;
 
 public class SaleDAO {
@@ -17,7 +22,19 @@ public class SaleDAO {
         Tools.printTitle("Gioco - Nueva venta.");
 
         Sale sale = new Sale();
+        Client client = null;
         String option = "";
+
+        System.out.println(clientDAO.toString("s") + "\n");
+        System.out.println("Seleccione el cliente deseado.");
+
+        do {
+            client = clientDAO.searchClient(Tools.getId());
+        } while (client == null);
+
+        sale.setClient(client);
+        sale.setEmployee(userLoged);
+        sale.setBranchOffice(userLoged.getBranch());
 
         do {
             System.out.println(productDAO.toString());
@@ -26,9 +43,18 @@ public class SaleDAO {
             int idProduct = Tools.getId();
             int quantity = Tools.getInt("cantidad");
 
-            SaleProduct product = new SaleProduct(sale.getId(), idProduct, quantity, productDAO.searchProduct(idProduct));
+            try {
+                Product product = searchProduct(idProduct);
+                if (product.getProductStock() >= quantity) {
+                    SaleProduct saleProduct = new SaleProduct(sale.getId(), idProduct, quantity, product);
+                    sale.products.add(saleProduct);
+                    product.setProductStock(product.getProductStock() - quantity);
+                } else {
+                    System.out.println(ANSI_RED + "Stock insuficiente." + ANSI_RESET);
+                }
+            } catch (Exception ignored) {
+            }
 
-            sale.products.add(product);
 
             System.out.println("Desea ingresar otro articulo a la venta? y/n");
             Scanner theScanner = new Scanner(System.in);
@@ -37,10 +63,11 @@ public class SaleDAO {
 
         Date date = new Date();
         sale.setDateOfSale(date);
-        sale.setBranchOffice(CLogin.userLoged.getBranch());
+        sale.setBranchOffice(userLoged.getBranch());
         sale.setTotal(sale.generateTotal());
         sale.setSubTotal((sale.getTotal() - (sale.getTotal() * 0.16)));
         sale.setTaxes(sale.getTotal() * 0.16);
+
 
         if (!sale.collect()) {
             sale = null;
@@ -48,11 +75,26 @@ public class SaleDAO {
         return sale;
     }
 
-    public void addSale(Sale sale) {
+    public static void addSale(Sale sale) {
         if (sale != null) {
             sales.add(sale);
-            for (SaleProduct p : sale.products){
+        }
+    }
 
+    public static void removeSale(int id) {
+        if (sales.removeIf(s -> s.getId() == id)) {
+            System.out.println(ANSI_YELLOW + "Eliminado." + ANSI_RESET);
+        } else {
+            System.out.println(ANSI_RED + "Venta no encontrada." + ANSI_RESET);
+        }
+    }
+
+    public static void printSales() {
+        Tools.padding();
+        Tools.printTitle("Gioco - Ventas");
+        for (Sale s : sales) {
+            if (!s.getStatus().equals("eliminada")) {
+                System.out.println("\n" + s.toString());
             }
         }
     }

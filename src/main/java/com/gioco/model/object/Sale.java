@@ -15,10 +15,13 @@ public class Sale {
     private Date dateOfSale;
     private String branchOffice;
     private String status = "Vendido";
+    private Client client;
+    private Employee employee;
     private double subTotal;
     private double taxes;
     private double total;
     public ArrayList<SaleProduct> products = new ArrayList<>();
+
 
     public Sale() {
         id = it;
@@ -31,6 +34,22 @@ public class Sale {
     public Sale(Date dateOfSale, String branchOffice) {
         this.dateOfSale = dateOfSale;
         this.branchOffice = branchOffice;
+    }
+
+    public Client getClient() {
+        return client;
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
+    }
+
+    public Employee getEmployee() {
+        return employee;
+    }
+
+    public void setEmployee(Employee employee) {
+        this.employee = employee;
     }
 
     public int getId() {
@@ -88,7 +107,7 @@ public class Sale {
     public double generateTotal() {
         double total = 0;
         for (SaleProduct s : this.products) {
-            total += s.getPrice();
+            total += s.getPrice() * s.getQuantity();
         }
         return total;
     }
@@ -118,8 +137,32 @@ public class Sale {
             return true;
         } else {
             it--;
+
+            for (SaleProduct s : this.products) {
+                s.product.setProductStock(s.product.getProductStock() + s.getQuantity());
+            }
+
             System.out.println(ANSI_PURPLE + "Venta cancelada." + ANSI_RESET);
             return false;
         }
+    }
+
+    @Override
+    public String toString() {
+        String string = "";
+        for (SaleProduct s : this.products) {
+            string += s.toString();
+        }
+
+        Tools.printTitle("Venta número: " + this.getId());
+        return "Id: " + this.getId() +
+                "\nFecha: " + this.getDateOfSale() +
+                "\nSucursal: " + this.getBranchOffice() +
+                "\nCliente: " + this.getClient().getFullName() + "   ||   Id: " + this.getClient().getId() +
+                "\nVendedor: " + this.getEmployee().getFullName() + "   ||   Id: " + this.getEmployee().getId() +
+                string +
+                "\n\nSub-total: " + this.getSubTotal() +
+                "\nIVA: " + this.getTaxes() +
+                "\nTotal: " + this.getTotal();
     }
 }

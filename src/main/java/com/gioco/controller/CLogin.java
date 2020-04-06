@@ -51,7 +51,7 @@ public class CLogin {
         for (Employee e : employees) {
             if (user.equals(e.getNickname()) && password.equals(e.getPassword())) {
                 employee = e;
-                System.out.println("\n" + ANSI_YELLOW + "Empleado obtenido" + ANSI_RESET);
+                System.out.println("\n" + ANSI_YELLOW + "Sesión iniciada." + ANSI_RESET + "\n");
                 System.out.println(e.toString() + "\n");
             }
         }

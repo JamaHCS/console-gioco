@@ -1,13 +1,11 @@
 package com.gioco.model.object;
 
-import java.util.Objects;
-
 public class SaleProduct {
 
     private int saleId;
     private int productId;
     private int quantity;
-    private Product product;
+    public Product product;
     private float price;
 
     public SaleProduct() {
@@ -61,4 +59,10 @@ public class SaleProduct {
         this.price = price;
     }
 
+
+    @Override
+    public String toString() {
+        return "\nCant: " + this.getQuantity() +
+                "\n    " + this.product.getProductName() + "   ||   P. unitario: $" + this.product.getProductPrice();
+    }
 }
