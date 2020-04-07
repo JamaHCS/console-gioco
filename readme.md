@@ -23,6 +23,9 @@ _También se hizo uso de maven para el empaquetado e implementación de librerí
 
 ### Diagrama de clases
 Con el tiempo de desarrollo fuimos viendo que el primer diagrama de clases no tomaba en cuenta muchos aspectos que fuimos viendo durante el desarrollo del programa, por lo tanto se le tuvo que llevar a cabo varias modificaciones (En un plano general), pero tambien hay que tomar en cuenta que este diagrama solo toma en cuenta la interacción de los objetos del modelo y no la interacción de todo el sistema.
+ 
+ ![Diagrama de clases](./Diagrama-de-clases-UML.png) 
+
 
 ---
 ⌨️ con ❤️ por [Hector Jama](https://github.com/JamaHCS) & [Mariana Hernandez](https://github.com/MarianaHdz)
