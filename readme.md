@@ -11,7 +11,7 @@ _El proyecto fue elaborado usando el JDK 13, pero corre sin problemas en el JDK 
 Una vez seleccionado el JDK a usar, tenemos tenemos que correrlo. Se puede correr desde el IDE, o desde la consola de nuestro sistema operativo:_
 
 ```
-$java -jar Console-Gioco-Project.jar
+$java -classpath .\out\artifacts\Console_Gioco_Project_jar\Console-Gioco-Project.jar  Main
 ```
 
 ### IDE 🔧
