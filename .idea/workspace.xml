@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28c480b0-d821-4e36-b654-0790b8261be4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Console_Gioco_Project_jar/Console-Gioco-Project.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Console_Gioco_Project_jar/Console-Gioco-Project.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/view/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/view/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gioco/view/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gioco/view/MainMenu.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +99,7 @@
       <workItem from="1585980588503" duration="35411000" />
       <workItem from="1586151523719" duration="28000" />
       <workItem from="1586151578029" duration="5497000" />
-      <workItem from="1586164035257" duration="7289000" />
+      <workItem from="1586164035257" duration="9179000" />
     </task>
     <servers />
   </component>
