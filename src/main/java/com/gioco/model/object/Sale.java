@@ -156,6 +156,7 @@ public class Sale {
         }
     }
 
+
     @Override
     public String toString() {
         String string = "";

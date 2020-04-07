@@ -62,3 +62,4 @@ public class Accesories extends Product {
                 "-\nDetalles: " + this.details + ".";
     }
 }
+

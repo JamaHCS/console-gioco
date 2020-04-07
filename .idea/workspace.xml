@@ -7,8 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28c480b0-d821-4e36-b654-0790b8261be4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Console_Gioco_Project_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Console_Gioco_Project_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Console_Gioco_Project_jar/Console-Gioco-Project.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Console_Gioco_Project_jar/Console-Gioco-Project.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Accesories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Accesories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Consoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Consoles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Sale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/SaleProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/SaleProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Souvenirs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/Souvenirs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gioco/model/object/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +114,8 @@
       <workItem from="1586151523719" duration="28000" />
       <workItem from="1586151578029" duration="5497000" />
       <workItem from="1586164035257" duration="9179000" />
+      <workItem from="1586222028521" duration="828000" />
+      <workItem from="1586223057571" duration="5804000" />
     </task>
     <servers />
   </component>
@@ -118,10 +134,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="424" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1586136830129" />
-    <state x="551" y="218" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586164322470">
+    <state x="551" y="218" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586223137777">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="551" y="218" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1586164322470" />
+    <state x="551" y="218" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1586223137777" />
     <state x="480" y="158" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586151533657">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -130,10 +146,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="622" y="355" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1585934328016" />
-    <state x="596" y="289" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585907560035">
+    <state x="596" y="289" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586235937112">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="596" y="289" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1585907560035" />
+    <state x="596" y="289" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1586235937112" />
     <state x="41" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586037473971">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -150,30 +166,30 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="538" y="178" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1586215040575" />
-    <state width="1557" height="402" key="GridCell.Tab.0.bottom" timestamp="1586215825065">
+    <state width="1557" height="497" key="GridCell.Tab.0.bottom" timestamp="1586230960339">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="402" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586215825065" />
-    <state width="1557" height="402" key="GridCell.Tab.0.center" timestamp="1586215825065">
+    <state width="1557" height="497" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586230960339" />
+    <state width="1557" height="497" key="GridCell.Tab.0.center" timestamp="1586230960339">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="402" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1586215825065" />
-    <state width="1557" height="402" key="GridCell.Tab.0.left" timestamp="1586215825065">
+    <state width="1557" height="497" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1586230960339" />
+    <state width="1557" height="497" key="GridCell.Tab.0.left" timestamp="1586230960338">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="402" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1586215825065" />
-    <state width="1557" height="402" key="GridCell.Tab.0.right" timestamp="1586215825065">
+    <state width="1557" height="497" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1586230960338" />
+    <state width="1557" height="497" key="GridCell.Tab.0.right" timestamp="1586230960339">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="402" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1586215825065" />
-    <state x="301" y="9" key="SettingsEditor" timestamp="1586215417047">
+    <state width="1557" height="497" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1586230960339" />
+    <state x="301" y="9" key="SettingsEditor" timestamp="1586223184865">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="9" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1586215417047" />
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1586164038845">
+    <state x="301" y="9" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1586223184865" />
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1586223115450">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1586164038845" />
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1586223115450" />
     <state x="643" y="0" width="658" height="847" key="dock-window-1" timestamp="1585984750553">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

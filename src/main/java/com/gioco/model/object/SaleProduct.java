@@ -69,3 +69,4 @@ public class SaleProduct {
                 "\n    " + this.product.getProductName() + "   ||   P. unitario: $" + this.product.getProductPrice();
     }
 }
+

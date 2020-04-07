@@ -64,3 +64,4 @@ public class Employee extends User {
         return new Employee(nickname, password, firstName, secondName, middleName, lastName, fullName, bornDate, email, phoneNumber, userType, since, status, idSupervisor, branch);
     }
 }
+

@@ -183,6 +183,7 @@ public abstract class User {
     }
 
 
+
     @Override
     public String toString() {
         return "Id: " + this.id + "\nNickname: " + this.nickname + "\nEmail: " + this.email + "\nNombre completo: " + this.firstName + " " + secondName + " " + middleName + " " + lastName;

@@ -21,5 +21,8 @@ _Se usó el IDE IntelliJ Idea Ultimate 2019.3 para la elaboracipon del proyecto.
 _También se hizo uso de maven para el empaquetado e implementación de librerías, puesto que se tenía pensado hacer uso de JUnit Testing para realizar pruebas en el proyecto, pero por motivos de tiempo, no fue posible hacer uso de esta caracteristica._
 
 
+### Diagrama de clases
+Con el tiempo de desarrollo fuimos viendo que el primer diagrama de clases no tomaba en cuenta muchos aspectos que fuimos viendo durante el desarrollo del programa, por lo tanto se le tuvo que llevar a cabo varias modificaciones (En un plano general), pero tambien hay que tomar en cuenta que este diagrama solo toma en cuenta la interacción de los objetos del modelo y no la interacción de todo el sistema.
+
 ---
 ⌨️ con ❤️ por [Hector Jama](https://github.com/JamaHCS) & [Mariana Hernandez](https://github.com/MarianaHdz)

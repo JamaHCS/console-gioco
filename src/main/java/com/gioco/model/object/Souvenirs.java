@@ -67,6 +67,7 @@ public class Souvenirs extends Product {
         return new Souvenirs(productName, productCost, productPrice, productStock, brand, platform, type, collection, details);
     }
 
+
     @Override
     public String toString() {
         return super.toString() +

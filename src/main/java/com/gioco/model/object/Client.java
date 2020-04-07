@@ -159,3 +159,4 @@ public class Client extends User {
                 "\nEmail: " + this.getEmail();
     }
 }
+
